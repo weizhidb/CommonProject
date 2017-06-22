@@ -19,6 +19,14 @@ package com.jaydenxiao.androidfire.bean;
 import java.util.List;
 
 public class GirlData {
+    @Override
+    public String toString() {
+        return "GirlData{" +
+                "isError=" + isError +
+                ", results=" + results +
+                '}';
+    }
+
     private boolean isError;
     private List<PhotoGirl> results;
 

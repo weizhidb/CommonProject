@@ -2,6 +2,7 @@ package com.jaydenxiao.common.baserx;
 
 import android.app.Activity;
 import android.content.Context;
+import android.util.Log;
 
 import com.jaydenxiao.common.baseapp.BaseApplication;
 import com.jaydenxiao.common.R;

@@ -5,6 +5,18 @@ import java.io.Serializable;
 
 public class NewsChannelTable implements Serializable {
 
+    @Override
+    public String toString() {
+        return "NewsChannelTable{" +
+                "newsChannelName='" + newsChannelName + '\'' +
+                ", newsChannelId='" + newsChannelId + '\'' +
+                ", newsChannelType='" + newsChannelType + '\'' +
+                ", newsChannelSelect=" + newsChannelSelect +
+                ", newsChannelIndex=" + newsChannelIndex +
+                ", newsChannelFixed=" + newsChannelFixed +
+                '}';
+    }
+
     private String newsChannelName;
     private String newsChannelId;
     private String newsChannelType;

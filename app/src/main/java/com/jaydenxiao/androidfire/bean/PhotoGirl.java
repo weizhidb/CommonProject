@@ -17,6 +17,21 @@
 package com.jaydenxiao.androidfire.bean;
 
 public class PhotoGirl {
+    @Override
+    public String toString() {
+        return "PhotoGirl{" +
+                "_id='" + _id + '\'' +
+                ", createdAt='" + createdAt + '\'' +
+                ", desc='" + desc + '\'' +
+                ", publishedAt='" + publishedAt + '\'' +
+                ", source='" + source + '\'' +
+                ", type='" + type + '\'' +
+                ", url='" + url + '\'' +
+                ", used=" + used +
+                ", who='" + who + '\'' +
+                '}';
+    }
+
     /**
      * _id : 57a4056c421aa91e2606478d
      * createdAt : 2016-08-05T11:18:04.807Z
