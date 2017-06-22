@@ -6,8 +6,6 @@ import rx.schedulers.Schedulers;
 
 /**
  * RxJava调度管理
- * Created by xsf
- * on 2016.08.14:50
  */
 public class RxSchedulers {
     public static <T> Observable.Transformer<T, T> io_main() {

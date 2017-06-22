@@ -16,8 +16,6 @@ import com.jaydenxiao.common.R;
 
 /**
  * des:加载页面内嵌提示
- * Created by xsf
- * on 2016.07.17:22
  */
 public class LoadingTip extends LinearLayout {
 

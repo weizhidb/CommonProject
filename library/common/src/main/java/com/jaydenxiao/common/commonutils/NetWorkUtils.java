@@ -9,8 +9,6 @@ import java.util.regex.Pattern;
 
 /**
  * des:网络管理工具
- * Created by xsf
- * on 2016.04.10:34
  */
 public class NetWorkUtils {
 

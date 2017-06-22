@@ -6,8 +6,6 @@ import android.view.MotionEvent;
 
 /**
  * des:修复viewpager
- * Created by xsf
- * on 2016.07.15:33
  */
 public class ViewPagerFixed extends android.support.v4.view.ViewPager {
 

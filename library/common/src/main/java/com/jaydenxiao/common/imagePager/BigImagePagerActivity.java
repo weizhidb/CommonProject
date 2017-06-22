@@ -32,7 +32,6 @@ import uk.co.senab.photoview.PhotoViewAttacher;
 
 /**
  * 查看大图 glide
- * Created by jaydenxiao
  */
 public class BigImagePagerActivity extends BaseActivity{
     public static final String INTENT_IMGURLS = "imgurls";

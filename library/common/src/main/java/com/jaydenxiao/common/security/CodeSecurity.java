@@ -3,7 +3,6 @@ package com.jaydenxiao.common.security;
 
 /**
  * 加解密方法的封装类
- * Created by Administrator on 2015/12/10 0010.
  */
 public class CodeSecurity {
 

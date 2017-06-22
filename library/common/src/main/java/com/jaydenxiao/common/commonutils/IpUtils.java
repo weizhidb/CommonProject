@@ -8,8 +8,6 @@ import java.util.Enumeration;
 
 /**
  * des:ip管理
- * Created by xsf
- * on 2016.06.16:27
  */
 public class IpUtils {
     /**

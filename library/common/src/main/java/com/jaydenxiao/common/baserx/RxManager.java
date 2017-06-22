@@ -11,8 +11,6 @@ import rx.subscriptions.CompositeSubscription;
 
 /**
  * 用于管理单个presenter的RxBus的事件和Rxjava相关代码的生命周期处理
- * Created by xsf
- * on 2016.08.14:50
  */
 public class RxManager {
     public RxBus mRxBus = RxBus.getInstance();

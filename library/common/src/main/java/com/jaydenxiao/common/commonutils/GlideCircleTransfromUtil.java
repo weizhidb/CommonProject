@@ -11,8 +11,6 @@ import com.bumptech.glide.load.resource.bitmap.BitmapTransformation;
 
 /**
  * description:glide转圆形图片
- * Created by xsf
- * on 2016.04.15:26
  */
 public class GlideCircleTransfromUtil extends BitmapTransformation {
     public GlideCircleTransfromUtil(Context context) {

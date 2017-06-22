@@ -11,8 +11,6 @@ import rx.schedulers.Schedulers;
 
 /**
  * des:对服务器返回数据成功和失败处理
- * Created by xsf
- * on 2016.09.9:59
  */
 /**************使用例子******************/
 /*_apiService.login(mobile, verifyCode)

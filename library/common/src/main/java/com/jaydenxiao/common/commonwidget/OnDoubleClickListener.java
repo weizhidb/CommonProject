@@ -4,8 +4,6 @@ import android.view.View;
 
 /**
  * des:双击事件
- * Created by xsf
- * on 2016.07.10:58
  */
 public abstract class OnDoubleClickListener implements View.OnClickListener {
     private int count = 0;

@@ -6,8 +6,6 @@ import android.view.inputmethod.InputMethodManager;
 
 /**
  * des:输入框弹出管理
- * Created by xsf
- * on 2016.05.13:59
  */
 
 public class KeyBordUtil {

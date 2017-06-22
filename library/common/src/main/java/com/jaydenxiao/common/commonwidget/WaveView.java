@@ -12,8 +12,6 @@ import android.view.View;
 
 /**
  * des:波浪view
- * Created by xsf
- * on 2016.12.02
  */
 public class WaveView extends View {
 

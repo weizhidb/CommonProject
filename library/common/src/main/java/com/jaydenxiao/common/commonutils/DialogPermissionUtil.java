@@ -11,8 +11,6 @@ import android.os.Build;
 
 /**
  * des:权限对话框管理
- * Created by xsf
- * on 2016.06.10:21
  */
 public class DialogPermissionUtil {
 

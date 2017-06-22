@@ -6,8 +6,6 @@ import java.util.Calendar;
 
 /**
  * des:防止重复点击
- * Created by xsf
- * on 2016.05.9:29
  */
 
 public abstract class OnNoDoubleClickListener implements View.OnClickListener {
