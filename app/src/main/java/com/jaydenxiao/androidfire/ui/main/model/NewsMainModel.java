@@ -14,11 +14,7 @@ import java.util.List;
 import rx.Observable;
 import rx.Subscriber;
 
-/**
- * des:
- * Created by xsf
- * on 2016.09.17:05
- */
+
 public class NewsMainModel implements NewsMainContract.Model {
     @Override
     public Observable<List<NewsChannelTable>> lodeMineNewsChannels() {
