@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="zone_textcolor_bg">#DDDDDD</color>
-    <color name="circle_name_selector_color">#cccccc</color>
-    <color name="container_background">#EBEBEB</color>
-    <color name="primary_text_white">#deffffff</color>
-    <!--87%white-->
-    <color name="progress_bar_unfinished">#D4D4D4</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="gray_trans">#88e5e6e7</color>
+
+    <color name="colorSecondary">#e5e6e7</color>
+    <color name="colorGrayText">#9e9d9d</color>
+    <color name="colorGrayTextDark">#636363</color>
+    <color name="windowBackgroundColor">#e5e6e7</color>
+
+    <color name="colorPink">#eb1460</color>
+    <color name="colorRed">#b52913</color>
+    <color name="colorGreen">#009687</color>
+    <color name="colorOrange">#ff5505</color>
 </resources>

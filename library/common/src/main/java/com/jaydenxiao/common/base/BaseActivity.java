@@ -19,7 +19,6 @@ import com.jaydenxiao.common.commonutils.ToastUitl;
 import com.jaydenxiao.common.commonwidget.LoadingDialog;
 import com.jaydenxiao.common.commonwidget.StatusBarCompat;
 import com.jaydenxiao.common.daynightmodeutils.ChangeModeController;
-import com.umeng.analytics.MobclickAgent;
 
 import butterknife.ButterKnife;
 
@@ -246,8 +245,6 @@ public abstract class BaseActivity<T extends BasePresenter, E extends BaseModel>
         super.onResume();
         //debug版本不统计crash
         if(!BuildConfig.LOG_DEBUG) {
-            //友盟统计
-            MobclickAgent.onResume(this);
         }
     }
 
@@ -256,8 +253,6 @@ public abstract class BaseActivity<T extends BasePresenter, E extends BaseModel>
         super.onPause();
         //debug版本不统计crash
         if(!BuildConfig.LOG_DEBUG) {
-            //友盟统计
-            MobclickAgent.onPause(this);
         }
     }
 

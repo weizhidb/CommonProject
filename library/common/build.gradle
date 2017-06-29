@@ -30,9 +30,7 @@ ext {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile files('libs/Parse-1.9.4.jar')
     compile files('libs/commons-codec-1.6.jar')
-    compile files('libs/alipaySdk-20160516.jar')
     compile 'com.android.support:support-v4:23.4.0'
     compile 'com.android.support:recyclerview-v7:23.4.0'
     compile 'com.android.support:support-annotations:23.4.0'
@@ -63,10 +61,6 @@ dependencies {
     compile 'com.github.clans:fab:1.6.4'
     //悬浮动画菜单
     compile 'cn.hugeterry.updatefun:updatefun:1.8.6'
-    //fire.im自动更新
-    compile 'com.umeng.analytics:analytics:latest.integration'
-    //友盟统计
-    compile files('libs/lechangeSDK.jar')
 }
 
 
