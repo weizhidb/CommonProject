@@ -106,36 +106,37 @@ public class EasyFlipView extends FrameLayout {
         mSetRightOut = (AnimatorSet) AnimatorInflater.loadAnimator(this.context, R.animator.animation_flip_out);
         mSetLeftIn = (AnimatorSet) AnimatorInflater.loadAnimator(this.context, R.animator.animation_flip_in);
 
-        mSetRightOut.addListener(new Animator.AnimatorListener() {
-            @Override
-            public void onAnimationStart(Animator animator) {
-
-            }
-
-            @Override
-            public void onAnimationEnd(Animator animator) {
-
-                if (mFlipState == FlipState.FRONT_SIDE)
-                {
-                    mCardBackLayout.setVisibility(GONE);
-                    mCardFrontLayout.setVisibility(VISIBLE);
-                }
-                else {
-                    mCardBackLayout.setVisibility(VISIBLE);
-                    mCardFrontLayout.setVisibility(GONE);
-                }
-            }
-
-            @Override
-            public void onAnimationCancel(Animator animator) {
-
-            }
-
-            @Override
-            public void onAnimationRepeat(Animator animator) {
-
-            }
-        });
+//        mSetRightOut.addListener(new Animator.AnimatorListener() {
+//            @Override
+//            public void onAnimationStart(Animator animator) {
+//
+//            }
+//
+//            @Override
+//            public void onAnimationEnd(Animator animator) {
+//
+//                if (mFlipState == FlipState.FRONT_SIDE)
+//                {
+//                    mCardBackLayout.setVisibility(GONE);
+//                    mCardFrontLayout.setVisibility(VISIBLE);
+//                }
+//                else {
+//                    mCardBackLayout.setVisibility(VISIBLE);
+//                    mCardFrontLayout.setVisibility(GONE);
+//                }
+//            }
+//
+//            @Override
+//            public void onAnimationCancel(Animator animator) {
+//
+//            }
+//
+//            @Override
+//            public void onAnimationRepeat(Animator animator) {
+//
+//            }
+//        });
+//
         setFlipDuration(flipDuration);
     }
 
