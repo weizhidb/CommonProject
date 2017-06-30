@@ -8,8 +8,6 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/EasyFlipView-Library" />
-            <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/library" />
             <option value="$PROJECT_DIR$/library/common" />
             <option value="$PROJECT_DIR$/library/commonView" />
@@ -24,8 +22,6 @@
         <option name="myModules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/EasyFlipView-Library" />
-            <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/library" />
             <option value="$PROJECT_DIR$/library/common" />
             <option value="$PROJECT_DIR$/library/commonView" />

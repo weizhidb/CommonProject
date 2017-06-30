@@ -1,18 +1,63 @@
-package com.wajahatkarim3.easyflipview;
+package com.commonview.anim.rotate;
 
-import android.animation.Animator;
 import android.animation.AnimatorInflater;
 import android.animation.AnimatorSet;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.FrameLayout;
 
-/**
+import com.commonview.R;
 
+/**
+ *
+ author:weizhi
+ date:2017/06/30
+des:view翻转效果
+ use:
+ 布局文件中：
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ xmlns:tools="http://schemas.android.com/tools"
+ xmlns:app="http://schemas.android.com/apk/res-auto"
+ android:id="@+id/activity_main"
+ android:layout_width="match_parent"
+ android:layout_height="match_parent"
+ android:background="@color/windowBackgroundColor"
+ android:orientation="vertical"
+ tools:context="com.wajahatkarim3.easyflipview.demo.MainActivity">
+
+ <com.wajahatkarim3.easyflipview.EasyFlipView
+ android:id="@+id/easyFlipView2"
+ android:layout_width="match_parent"
+ android:layout_height="match_parent"
+ app:flipOnTouch="true"
+ app:flipDuration="500"
+ app:flipEnabled="true">
+ <include layout="@layout/flash_card_layout_back"/>
+ <include layout="@layout/flash_card_layout_front" />
+ </com.wajahatkarim3.easyflipview.EasyFlipView>
+
+ </LinearLayout>
+
+
+Java代码：
+ final EasyFlipView easyFlipView = (EasyFlipView) findViewById(R.id.easyFlipView2);
+ Button btn = (Button) findViewById(R.id.id_login);
+ Button btn1 = (Button) findViewById(R.id.register);
+ btn.setOnClickListener(new View.OnClickListener() {
+@Override
+public void onClick(View v) {
+easyFlipView.flipTheView();
+}
+});
+ btn1.setOnClickListener(new View.OnClickListener() {
+@Override
+public void onClick(View v) {
+easyFlipView.flipTheView();
+}
+});
  */
 public class EasyFlipView extends FrameLayout {
 
@@ -224,7 +269,7 @@ public class EasyFlipView extends FrameLayout {
                     float MAX_CLICK_DISTANCE = 0.5f;
                     if ((dx>= 0 && dx<MAX_CLICK_DISTANCE)&&(dy>= 0&& dy<MAX_CLICK_DISTANCE))
                     {
-                        flipTheView();
+//                        flipTheView();
                     }
                     return true;
             }
@@ -267,12 +312,12 @@ public class EasyFlipView extends FrameLayout {
         this.flipDuration = flipDuration;
 
         //mSetRightOut.setDuration(flipDuration);
-        mSetRightOut.getChildAnimations().get(0).setDuration(flipDuration);
-        mSetRightOut.getChildAnimations().get(1).setStartDelay(flipDuration/2);
+//        mSetRightOut.getChildAnimations().get(0).setDuration(flipDuration);
+//        mSetRightOut.getChildAnimations().get(1).setStartDelay(flipDuration/2);
 
         //mSetLeftIn.setDuration(flipDuration);
-        mSetLeftIn.getChildAnimations().get(1).setDuration(flipDuration);
-        mSetLeftIn.getChildAnimations().get(2).setStartDelay(flipDuration/2);
+//        mSetLeftIn.getChildAnimations().get(1).setDuration(flipDuration);
+//        mSetLeftIn.getChildAnimations().get(2).setStartDelay(flipDuration/2);
     }
 
     /**
@@ -306,7 +351,7 @@ public class EasyFlipView extends FrameLayout {
      */
     public boolean isFrontSide()
     {
-        return (mFlipState==FlipState.FRONT_SIDE);
+        return (mFlipState== FlipState.FRONT_SIDE);
     }
 
     /**
@@ -315,6 +360,6 @@ public class EasyFlipView extends FrameLayout {
      */
     public boolean isBackSide()
     {
-        return (mFlipState==FlipState.BACK_SIDE);
+        return (mFlipState== FlipState.BACK_SIDE);
     }
 }

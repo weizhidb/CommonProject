@@ -6,6 +6,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import com.jaydenxiao.androidfire.R;
+import com.jaydenxiao.androidfire.ui.my.LoginActivity;
 import com.jaydenxiao.androidfire.ui.news.activity.AboutActivity;
 import com.jaydenxiao.androidfire.ui.zone.activity.CircleZoneActivity;
 import com.jaydenxiao.common.base.BaseFragment;
@@ -64,5 +65,11 @@ public class CareMainFragment extends BaseFragment {
     @OnClick(R.id.ll_daynight_about)
     public void about(){
         AboutActivity.startAction(getContext());
+    }
+
+    @OnClick(R.id.img_logo)
+    public void clickIcon(){
+
+        LoginActivity.startAction(getActivity());
     }
 }

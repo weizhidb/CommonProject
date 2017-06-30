@@ -1,4 +1,4 @@
-include ':project', ':EasyFlipView-Library', ':app'
+include ':project'
 include ':library:common'
 include ':library:irecyclerview'
 include ':library:oneKeyShareSDK'

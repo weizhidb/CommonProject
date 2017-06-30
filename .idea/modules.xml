@@ -3,16 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CommonProject.iml" filepath="$PROJECT_DIR$/CommonProject.iml" />
-      <module fileurl="file://$PROJECT_DIR$/EasyFlipView-Library/EasyFlipView-Library.iml" filepath="$PROJECT_DIR$/EasyFlipView-Library/EasyFlipView-Library.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/common/common.iml" filepath="$PROJECT_DIR$/library/common/common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/library/commonView/commonview.iml" filepath="$PROJECT_DIR$/library/commonView/commonview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/commonView/commonView.iml" filepath="$PROJECT_DIR$/library/commonView/commonView.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/irecyclerview/irecyclerview.iml" filepath="$PROJECT_DIR$/library/irecyclerview/irecyclerview.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/jcvideoplayer/jcvideoplayer.iml" filepath="$PROJECT_DIR$/library/jcvideoplayer/jcvideoplayer.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/oneKeyShareSDK/oneKeyShareSDK.iml" filepath="$PROJECT_DIR$/library/oneKeyShareSDK/oneKeyShareSDK.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/photoPicker/photoPicker.iml" filepath="$PROJECT_DIR$/library/photoPicker/photoPicker.iml" />
-      <module fileurl="file://$PROJECT_DIR$/project/app.iml" filepath="$PROJECT_DIR$/project/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project/project.iml" filepath="$PROJECT_DIR$/project/project.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/selectordialog/selectordialog.iml" filepath="$PROJECT_DIR$/library/selectordialog/selectordialog.iml" />
     </modules>
   </component>

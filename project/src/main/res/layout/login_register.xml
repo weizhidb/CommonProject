@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.commonview.anim.rotate.EasyFlipView
+        android:id="@+id/easyFlipView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:flipOnTouch="true"
+        app:flipDuration="500"
+        app:flipEnabled="true">
+        <include layout="@layout/login"/>
+        <include layout="@layout/register" />
+    </com.commonview.anim.rotate.EasyFlipView>
+
+</LinearLayout>

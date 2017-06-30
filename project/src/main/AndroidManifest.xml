@@ -15,17 +15,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <!--<activity-->
-            <!--android:name=".ui.main.activity.SplashActivity"-->
-            <!--android:theme="@style/AppTheme.Launcher">-->
-            <!--<intent-filter>-->
-                <!--<action android:name="android.intent.action.MAIN" />-->
-
-                <!--<category android:name="android.intent.category.LAUNCHER" />-->
-            <!--</intent-filter>-->
-        <!--</activity>-->
         <activity
-            android:name=".TestActivity"
+            android:name=".ui.main.activity.SplashActivity"
             android:theme="@style/AppTheme.Launcher">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -33,6 +24,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!--<activity-->
+            <!--android:name=".TestActivity"-->
+            <!--android:theme="@style/AppTheme.Launcher">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
         <activity android:name=".ui.news.activity.PhotosDetailActivity"
             android:theme="@style/BaseAppTheme.Trans"
             />
@@ -44,6 +44,7 @@
         <activity android:name=".ui.zone.activity.CircleZoneActivity"/>
         <activity android:name=".ui.zone.activity.CirclePublishActivity"/>
         <activity android:name=".ui.news.activity.AboutActivity"/>
+        <activity android:name=".ui.my.LoginActivity"/>
         <!-- 友盟统计 -->
         <meta-data
             android:name="UMENG_APPKEY"
